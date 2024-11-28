@@ -71,6 +71,9 @@ class NotSelected extends StatelessWidget {
               children: [
                 Text(
                   note.name,
+                  softwrap: true,
+                  maxLines: 1,
+                  overflow: TextOverflow.elipsis,
                   style: const TextStyle(
                     fontSize: 18,
                   ),
@@ -175,6 +178,9 @@ class OneSelected extends StatelessWidget {
                   children: [
                     Text(
                       note.name,
+                         softwrap: true,
+                  maxLines: 1,
+                  overflow: TextOverflow.elipsis,
                       style: const TextStyle(
                         fontSize: 18,
                       ),
@@ -281,6 +287,9 @@ class Selected extends StatelessWidget {
                   children: [
                     Text(
                       note.name,
+                         softwrap: true,
+                  maxLines: 1,
+                  overflow: TextOverflow.elipsis,
                       style: const TextStyle(
                         fontSize: 18,
                       ),
